@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  View.swift
 //  LocationApp
 //
 //  Created by Piotr Guzia on 11/05/2020.
@@ -10,11 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var viewModel: ViewActionable!
+
     override func viewDidLoad() {
+        viewModel.viewDidFinishLoading()
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
 }
-

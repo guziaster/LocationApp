@@ -7,9 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		67A081802469EF36008A1A96 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A0817F2469EF36008A1A96 /* View.swift */; };
+		67A081822469EF3E008A1A96 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A081812469EF3E008A1A96 /* ViewModel.swift */; };
+		67A081842469EF5D008A1A96 /* ViewActionable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A081832469EF5D008A1A96 /* ViewActionable.swift */; };
+		67A081882469F461008A1A96 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A081872469F461008A1A96 /* Router.swift */; };
+		67A0818A2469F510008A1A96 /* ApplicationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A081892469F510008A1A96 /* ApplicationRouter.swift */; };
+		67A0818F2469F8E3008A1A96 /* MineLocationScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67A0818E2469F8E3008A1A96 /* MineLocationScreen.xib */; };
+		67A081912469F8F1008A1A96 /* MineLocationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A081902469F8F1008A1A96 /* MineLocationScreen.swift */; };
+		67A081932469F917008A1A96 /* MineLocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A081922469F917008A1A96 /* MineLocationViewModel.swift */; };
+		67A081952469F95D008A1A96 /* MineLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A081942469F95D008A1A96 /* MineLocationView.swift */; };
+		67A081972469FA53008A1A96 /* MineLocationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A081962469FA53008A1A96 /* MineLocationRouter.swift */; };
+		67A081992469FB7B008A1A96 /* MineLocationAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A081982469FB7B008A1A96 /* MineLocationAssembly.swift */; };
+		67A0819B2469FC2C008A1A96 /* MineLocationViewModelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A0819A2469FC2C008A1A96 /* MineLocationViewModelFactory.swift */; };
+		67A0819D2469FD31008A1A96 /* MineLocationRoutable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A0819C2469FD31008A1A96 /* MineLocationRoutable.swift */; };
 		67EEA8182469E98900259B07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EEA8172469E98900259B07 /* AppDelegate.swift */; };
-		67EEA81C2469E98900259B07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EEA81B2469E98900259B07 /* ViewController.swift */; };
-		67EEA81F2469E98900259B07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67EEA81D2469E98900259B07 /* Main.storyboard */; };
 		67EEA8212469E98C00259B07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67EEA8202469E98C00259B07 /* Assets.xcassets */; };
 		67EEA8242469E98C00259B07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67EEA8222469E98C00259B07 /* LaunchScreen.storyboard */; };
 		67EEA82F2469E98C00259B07 /* LocationAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EEA82E2469E98C00259B07 /* LocationAppTests.swift */; };
@@ -26,10 +37,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		67A0817F2469EF36008A1A96 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		67A081812469EF3E008A1A96 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		67A081832469EF5D008A1A96 /* ViewActionable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewActionable.swift; sourceTree = "<group>"; };
+		67A081872469F461008A1A96 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		67A081892469F510008A1A96 /* ApplicationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationRouter.swift; sourceTree = "<group>"; };
+		67A0818E2469F8E3008A1A96 /* MineLocationScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MineLocationScreen.xib; sourceTree = "<group>"; };
+		67A081902469F8F1008A1A96 /* MineLocationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineLocationScreen.swift; sourceTree = "<group>"; };
+		67A081922469F917008A1A96 /* MineLocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineLocationViewModel.swift; sourceTree = "<group>"; };
+		67A081942469F95D008A1A96 /* MineLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineLocationView.swift; sourceTree = "<group>"; };
+		67A081962469FA53008A1A96 /* MineLocationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineLocationRouter.swift; sourceTree = "<group>"; };
+		67A081982469FB7B008A1A96 /* MineLocationAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineLocationAssembly.swift; sourceTree = "<group>"; };
+		67A0819A2469FC2C008A1A96 /* MineLocationViewModelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineLocationViewModelFactory.swift; sourceTree = "<group>"; };
+		67A0819C2469FD31008A1A96 /* MineLocationRoutable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineLocationRoutable.swift; sourceTree = "<group>"; };
 		67EEA8142469E98900259B07 /* LocationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67EEA8172469E98900259B07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		67EEA81B2469E98900259B07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		67EEA81E2469E98900259B07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		67EEA8202469E98C00259B07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67EEA8232469E98C00259B07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67EEA8252469E98C00259B07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,6 +78,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		67A081852469F154008A1A96 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				67A081862469F161008A1A96 /* MineLocation */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		67A081862469F161008A1A96 /* MineLocation */ = {
+			isa = PBXGroup;
+			children = (
+				67A0818D2469F7CE008A1A96 /* Router */,
+				67A0818B2469F7B0008A1A96 /* View */,
+				67A0818C2469F7BB008A1A96 /* ViewModel */,
+				67A081982469FB7B008A1A96 /* MineLocationAssembly.swift */,
+			);
+			path = MineLocation;
+			sourceTree = "<group>";
+		};
+		67A0818B2469F7B0008A1A96 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				67A0818E2469F8E3008A1A96 /* MineLocationScreen.xib */,
+				67A081902469F8F1008A1A96 /* MineLocationScreen.swift */,
+				67A081942469F95D008A1A96 /* MineLocationView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		67A0818C2469F7BB008A1A96 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				67A081922469F917008A1A96 /* MineLocationViewModel.swift */,
+				67A0819A2469FC2C008A1A96 /* MineLocationViewModelFactory.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		67A0818D2469F7CE008A1A96 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				67A081962469FA53008A1A96 /* MineLocationRouter.swift */,
+				67A0819C2469FD31008A1A96 /* MineLocationRoutable.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 		67EEA80B2469E98900259B07 = {
 			isa = PBXGroup;
 			children = (
@@ -77,9 +146,10 @@
 		67EEA8162469E98900259B07 /* LocationApp */ = {
 			isa = PBXGroup;
 			children = (
+				67EEA8392469EC2800259B07 /* Common */,
+				67A081852469F154008A1A96 /* Scenes */,
+				67A081892469F510008A1A96 /* ApplicationRouter.swift */,
 				67EEA8172469E98900259B07 /* AppDelegate.swift */,
-				67EEA81B2469E98900259B07 /* ViewController.swift */,
-				67EEA81D2469E98900259B07 /* Main.storyboard */,
 				67EEA8202469E98C00259B07 /* Assets.xcassets */,
 				67EEA8222469E98C00259B07 /* LaunchScreen.storyboard */,
 				67EEA8252469E98C00259B07 /* Info.plist */,
@@ -94,6 +164,25 @@
 				67EEA8302469E98C00259B07 /* Info.plist */,
 			);
 			path = LocationAppTests;
+			sourceTree = "<group>";
+		};
+		67EEA8392469EC2800259B07 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				67EEA83A2469EE5500259B07 /* ArchitectureBase */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		67EEA83A2469EE5500259B07 /* ArchitectureBase */ = {
+			isa = PBXGroup;
+			children = (
+				67A0817F2469EF36008A1A96 /* View.swift */,
+				67A081812469EF3E008A1A96 /* ViewModel.swift */,
+				67A081832469EF5D008A1A96 /* ViewActionable.swift */,
+				67A081872469F461008A1A96 /* Router.swift */,
+			);
+			path = ArchitectureBase;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,7 +268,7 @@
 			files = (
 				67EEA8242469E98C00259B07 /* LaunchScreen.storyboard in Resources */,
 				67EEA8212469E98C00259B07 /* Assets.xcassets in Resources */,
-				67EEA81F2469E98900259B07 /* Main.storyboard in Resources */,
+				67A0818F2469F8E3008A1A96 /* MineLocationScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,8 +286,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67EEA81C2469E98900259B07 /* ViewController.swift in Sources */,
+				67A0819D2469FD31008A1A96 /* MineLocationRoutable.swift in Sources */,
+				67A081972469FA53008A1A96 /* MineLocationRouter.swift in Sources */,
 				67EEA8182469E98900259B07 /* AppDelegate.swift in Sources */,
+				67A0818A2469F510008A1A96 /* ApplicationRouter.swift in Sources */,
+				67A081952469F95D008A1A96 /* MineLocationView.swift in Sources */,
+				67A081842469EF5D008A1A96 /* ViewActionable.swift in Sources */,
+				67A081882469F461008A1A96 /* Router.swift in Sources */,
+				67A081932469F917008A1A96 /* MineLocationViewModel.swift in Sources */,
+				67A0819B2469FC2C008A1A96 /* MineLocationViewModelFactory.swift in Sources */,
+				67A081822469EF3E008A1A96 /* ViewModel.swift in Sources */,
+				67A081802469EF36008A1A96 /* View.swift in Sources */,
+				67A081992469FB7B008A1A96 /* MineLocationAssembly.swift in Sources */,
+				67A081912469F8F1008A1A96 /* MineLocationScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,14 +321,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		67EEA81D2469E98900259B07 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				67EEA81E2469E98900259B07 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		67EEA8222469E98C00259B07 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
